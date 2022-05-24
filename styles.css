@@ -1,5 +1,9 @@
 body {
     background-color:#fffbf7;
+    margin: 0;
+}
+.logo_matcha {
+    width:50%;
 }
 h1 {
     color:#025157;
@@ -14,3 +18,61 @@ button {
     color:#ffffff;
     background-color:#025157;
 }
+.header {
+    margin: 40px 20px 0px;
+    font-size:0;
+}
+.header>*{
+    display: inline-block;
+    font-size:16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+}
+.header li{
+    display:inline
+    margin: 0 15px;
+}
+.header ul{
+
+}
+.image_matcha {
+    width:20%;
+}
+.navbar {
+width:60%;
+text-align: center;
+color:#025157
+font-weight: 500;
+}
+.actions{
+    width:20%;
+    text-align: right;
+}
+.actions a{
+    color:#67b54b;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.actions button {
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: none;
+    padding: 20px;
+}
+
+.logo_matcha {
+    width:50px;
+}
+.first-image {
+    width:20%;
+    text-align: center
+}
+.second-image {
+    width:50%;
+    text-align: center
+}
+.main {
+    text-align:center
+}
+
