@@ -25,6 +25,10 @@ button {
     background-color: #fffbf7;
 }
 
+.main-nav-bg-color {
+    background-color:#fffbf7;
+}
+
 .header {
     margin: 40px 20px 0;
     font-size:0;
@@ -56,7 +60,7 @@ button {
 }
 
 .navbar {
-    width: 60%;
+    /* Esta propiedad no se usará en Bootstrap width: 60%; */
     text-align: center;
     color:#025157;
     font-weight: 500;
@@ -92,14 +96,15 @@ button {
 
 .main {
     text-align: center;
-    margin-top: 260px;
+    margin-top: 184px;
 }
 
 .main h1 {
     font-family: "Alegreya", serif;
-    font-size: 48px;
+    font-size: 60px;
     font-weight: 900;
     color: #025157;
+    margin-bottom: 24px;
 }
 .main form input {
     padding: 15px;
@@ -164,9 +169,6 @@ button {
     height: 600px;
     background-color: #025157;
     padding: 5% 10%;
-
-    /* se va a borrar al final */
-    margin-bottom: 200px;
 }
 
 .feature-card {
@@ -231,6 +233,64 @@ button {
     width: 150%;
 }
 
+.conteiner .card-body a {
+    background-color: #025157;
+}
+
+.card-conteiner {
+    background-color: #a1d683;
+    padding: 10% 0;
+}
+
+.comments {
+    padding: 0 15px;
+}
+
+.comments h1 {
+    color: #025157;
+    font-weight: bold;
+    text-align: left;
+    font-family: "Alegreya", serif;
+    font-weight: 900;
+    font-size: 51px;
+    line-height: 61px;
+    letter-spacing: -2px;
+}
+
+.comments p {
+    font-size: 18px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.comments .btn-beefy {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 12px;
+    text-align: center;
+    color: #fff;
+    background: #025157;
+    border-radius: 8px;
+    height: 45px;
+    width: 166px;
+    transition: all .2s ease-in-out;
+}
+
+.comments .btn-beefy:hover {
+    background-color: #67b54b;
+    color: #fff;
+}
+
+.comments img {
+    margin: 40px 0;
+    padding-right: 10px;
+    width: 50%;
+}
+
+/*Media quaries*/
+
 @media screen and (max-width: 425px) {
     body {
         padding: 5px;
@@ -253,10 +313,10 @@ button {
         width: 100%;
     }
 
-    .navbar,
+    /* .navbar,
     .actions {
         display: none;
-    }
+    } Esto se elimana para usar bootstrap*/
     
     .main {
         margin-top: 130 px;
