@@ -239,7 +239,7 @@ button {
 
 .card-conteiner {
     background-color: #a1d683;
-    padding: 10% 0;
+    padding: 10% 10%;
 }
 
 .comments {
@@ -352,7 +352,15 @@ button {
     justify-content: center;
     align-items: center;
 }
-
+.company img {
+    width: 80%;
+    object-fit: cover;
+}
+.results img {
+    width: 80px;
+    height: 42px;
+    margin-right: 5px;
+}
 .card-body h4 {
     color: #025157;
     font-size: 18px;
@@ -366,10 +374,6 @@ button {
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 20px;
-}
-.company img {
-    width: 80%;
-    object-fit: cover;
 }
 
 .card-footer {
